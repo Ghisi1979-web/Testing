@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "silentdrop",
+    "slug": "silentdrop",
+    "scheme": "silentdrop",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": { "fallbackToCacheTimeout": 0 },
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#ffffff" } },
+    "extra": {
+      "eas": { "projectId": "00000000-0000-0000-0000-000000000000" },
+      "SAFE_MODE_FOR_REVIEW": "${SAFE_MODE_FOR_REVIEW}",
+      "EXPLICIT_FEATURE_FLAG": "${EXPLICIT_FEATURE_FLAG}",
+      "ALLOWED_COUNTRIES_EXPLICIT": "${ALLOWED_COUNTRIES_EXPLICIT}",
+      "SUPABASE_URL": "${SUPABASE_URL}",
+      "SUPABASE_ANON_KEY": "${SUPABASE_ANON_KEY}"
+    }
+  }
+}
